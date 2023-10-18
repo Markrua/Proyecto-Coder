@@ -162,7 +162,7 @@ background-size: cover
     padding: 3rem;
 }
 
-.articulo-acerca{
+.articulo-section{
     padding: 1.2rem;
     display: grid;
     grid-template-columns:repeat(2, 1fr);
@@ -170,21 +170,22 @@ background-size: cover
     gap: 3rem;
 }
 
-.acerca-parrafo{
+.parrafo-articulo{
     grid-area: 1 / 1 / 2 / 2;
     padding: 1.5rem;
 }
 
-.parrafo-1{
+.parrafo-1-2-3{
     font-size: 1.4rem;
     padding: 1rem;
 }
 
-.imagen-ps4{
+.imagen-articulo{
     grid-area: 1 / 2 / 2 / 3;
     justify-self: end;
     margin-right: 1rem;
 }
+
 
 
 
