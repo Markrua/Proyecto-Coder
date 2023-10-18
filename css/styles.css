@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    background-color: rgb(56, 56, 56);
+    color: white;
+}
+
+a:link {color : #e40606;}
+
+a:visited {color : #f5f5f5;}
+
+a{
+    text-decoration: none;
+}
+
+/* Header */
+
+
+
+
+ol,
+ul{
+    list-style: none;
+}
+
+
+
+
+.portada{
+    background-color: cadetblue;
+    height: 650px;
+    background-image: url(../img/juego-mad-max-port4.webp);
+    background-position-x: 30%; background-position-y:30% ;
+background-attachment:fixed ;
+background-size: 1350px 940px
+}
+
+.fondo-jugabilidad{
+    width: auto;
+    height:auto;
+    background-color: aqua;
+    background-image: url(../img/juego-mad-max-port4.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.footer{
+    background-color: coral;
+    height: 120px;
+}
+
+
