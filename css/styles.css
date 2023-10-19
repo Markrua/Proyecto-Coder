@@ -265,6 +265,32 @@ background-size: cover
 
 
 
+
+
+/* Personajes */
+
+.personajes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding: 1.5rem;
+    gap: 1.5rem;
+    }
+
+.titulo-imagen{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    align-items: center;
+}
+
+.titulo-personaje{
+    align-self: center;
+    padding: 1rem;
+}
+
+
+
 /* Lugares */
 
 .caja-regiones{
