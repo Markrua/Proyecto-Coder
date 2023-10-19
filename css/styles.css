@@ -202,6 +202,116 @@ background-size: cover
     background-size: cover;
 }
 
+
+
+
+
+/* Lugares */
+
+.caja-regiones{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.titulo-regiones{
+    text-align: center;
+}
+
+.region{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+@media (min-width:768px) {
+    .titulo-regiones{
+        font-size: 1.5rem;
+    }
+
+    .titulo-3{
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width:1200px) {
+
+    .titulo-regiones{
+        font-size: 2rem;
+    }
+}
+
+
+
+
+
+/* Galeria */
+
+.galeria-screen{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.screenshots{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 2rem;
+}
+
+.titulo-screenshots{
+    padding: 1rem;
+    align-self: center;
+}
+
+.wallpapers{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 2rem;
+}
+
+.titulo-wallpapers{
+    padding: 1rem;
+    align-self: center;
+}
+
+
+@media (min-width:768px) {
+    .titulo-screenshots{
+        font-size: 1.5rem;
+    }
+
+    .titulo-wallpapers{
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width:1200px) {
+    .titulo-screenshots{
+        font-size: 1.8rem;
+    }
+
+    .titulo-wallpapers{
+        font-size: 1.8rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Footer */
 
 footer{
@@ -243,6 +353,7 @@ footer{
         }
 
 }
+
 
 @media (min-width:768px) {
     .caja-footer{
