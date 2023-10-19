@@ -202,6 +202,65 @@ background-size: cover
     background-size: cover;
 }
 
+.estilo-parrafo{
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.titulo-estilo{
+    color: rgb(255, 255, 255);;
+    align-self: center;
+    font-size: 1.8rem;
+}
+
+.parrafo-jugabilidad{
+    color: rgb(0, 0, 0);
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+
+.trailer-jugabilidad{
+    display: flex;
+    padding: 1.5rem;
+    flex-direction: column;
+    gap: 1.5;
+}
+
+.titulo-trailer{
+    color: rgb(255, 255, 255);;
+    align-self: center;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+}
+
+.iframe-trailer{
+    padding: 1rem;
+    align-self: center;
+}
+
+.caja-compra-jugabilidad{
+    padding: 1rem;
+    border: 3px solid rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.titulo-compra-jugabilidad{
+    color: rgb(0, 0, 0);
+}
+
+.compra-jugabilidad{
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 
 
