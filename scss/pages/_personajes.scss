@@ -1,0 +1,53 @@
+.fondo-personajes{
+    background-image: url(../img/e3a8cba6f7c03e1748FONDOPERSONAJES.jpg);
+}
+
+.personajes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+    padding: 1.3rem;
+}
+
+.titulo-imagen{
+    color: rgb(252, 113, 20);
+}
+
+@media (min-width:480px) {
+    .fondo-personajes{
+        background-size: cover;
+    }
+
+    .titulo-imagen{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+}
+
+@media (min-width:1200px) {
+    .personajes{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        padding: 1.5rem;
+        gap: 1.5rem;
+    }
+    
+    .titulo-imagen{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        align-items: center;
+    }
+    
+    .titulo-personaje{
+        align-self: center;
+        padding: 1rem;
+    }
+} 
