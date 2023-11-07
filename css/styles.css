@@ -157,33 +157,74 @@ background-size: cover
     gap: 4rem;
 }
 
-.titulo-section{
-    font-size: 1.5rem;
-    padding: 3rem;
+
+
+
+@media (min-width:480px) {
+
+    .titulo-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+    }
+
+    .articulo-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .parrafo-articulo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1.2rem;
+    }
+
+    .imagen-articulo{
+        padding: 1rem;
+    }
+
 }
 
-.articulo-section{
-    padding: 1.2rem;
-    display: grid;
-    grid-template-columns:repeat(2, 1fr);
-    grid-template-rows: 1fr;
-    gap: 3rem;
-}
 
-.parrafo-articulo{
-    grid-area: 1 / 1 / 2 / 2;
-    padding: 1.5rem;
-}
 
-.parrafo-1-2-3{
-    font-size: 1.4rem;
-    padding: 1rem;
-}
+@media (min-width:1200px) {
 
-.imagen-articulo{
-    grid-area: 1 / 2 / 2 / 3;
-    justify-self: end;
-    margin-right: 1rem;
+    .titulo-section{
+        font-size: 1.5rem;
+        padding: 3rem;
+    }
+
+    .articulo-section{
+        padding: 1.2rem;
+        display: grid;
+        grid-template-columns:repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        gap: 3rem;
+    }
+
+    .parrafo-articulo{
+        grid-area: 1 / 1 / 2 / 2;
+        padding: 1.5rem;
+    }
+
+    .parrafo-1-2-3{
+        font-size: 1.8rem;
+        padding: 1rem;
+    }
+
+    .imagen-articulo{
+        grid-area: 1 / 2 / 2 / 3;
+        justify-self: end;
+        margin-right: 1rem;
+    }
+
 }
 
 
@@ -210,7 +251,7 @@ background-size: cover
 }
 
 .titulo-estilo{
-    color: rgb(255, 255, 255);;
+    color: rgb(0, 0, 0);;
     align-self: center;
     font-size: 1.8rem;
 }
@@ -230,15 +271,10 @@ background-size: cover
 }
 
 .titulo-trailer{
-    color: rgb(255, 255, 255);;
+    color: rgb(0, 0, 0);;
     align-self: center;
     padding: 1.5rem;
     font-size: 1.8rem;
-}
-
-.iframe-trailer{
-    padding: 1rem;
-    align-self: center;
 }
 
 .caja-compra-jugabilidad{
@@ -262,6 +298,54 @@ background-size: cover
     justify-content: center;
 }
 
+@media (min-width:480px) {
+    .iframe-trailer{
+        width: 465px;
+        display: flex;
+        justify-self: center;
+        align-self: center;
+    }
+}
+
+@media (min-width:768px) {
+    .iframe-trailer{
+        width: 600px;
+        height: 400px;
+        display: flex;
+        justify-self: center;
+        align-self: center;
+    }
+}
+
+
+@media (min-width:1200px) {
+    .iframe-trailer{
+        padding: 1rem;
+        align-self: center;
+        width: 750px;
+        height: 500px;
+    }
+
+    .titulo-estilo{
+        font-size: 2.2rem;
+        padding: 1rem;
+    }
+
+    .parrafo-jugabilidad{
+        font-size: 1.6rem;
+        padding: 1rem;
+    }
+
+    .titulo-trailer{
+        font-size: 2.2rem;
+        padding: 1rem;
+    }
+
+}
+
+
+
+
 
 
 
@@ -269,45 +353,96 @@ background-size: cover
 
 /* Personajes */
 
-.personajes{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    padding: 1.5rem;
-    gap: 1.5rem;
-    }
+.fondo-personajes{
+    background-image: url(../img/e3a8cba6f7c03e1748FONDOPERSONAJES.jpg);
+}
 
-.titulo-imagen{
+.personajes{
     display: flex;
     flex-direction: column;
-    padding: 1rem;
+    justify-content: center;
     align-items: center;
+    gap: 1.6rem;
+    padding: 1.3rem;
 }
 
-.titulo-personaje{
-    align-self: center;
-    padding: 1rem;
+.titulo-imagen{
+    color: rgb(252, 113, 20);
 }
+
+@media (min-width:480px) {
+    .fondo-personajes{
+        background-size: cover;
+    }
+
+    .titulo-imagen{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+}
+
+@media (min-width:1200px) {
+    .personajes{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        padding: 1.5rem;
+        gap: 1.5rem;
+    }
+    
+    .titulo-imagen{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        align-items: center;
+    }
+    
+    .titulo-personaje{
+        align-self: center;
+        padding: 1rem;
+    }
+} 
 
 
 
 /* Lugares */
 
+.fondo-lugares{
+    background-image: url(../img/438a3f8aafeFONDOLUGARES.jpg);
+
+}
+
 .caja-regiones{
     padding: 2rem;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 3rem;
 }
 
 .titulo-regiones{
+    color: rgb(236, 105, 18);
     text-align: center;
+    padding: 2rem;
 }
 
 .region{
     display: flex;
     flex-direction: column;
     gap: 2rem;
+}
+
+.titulo--3{
+    color: rgb(236, 105, 18);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    font-size: 1.8rem;
+    padding: 2rem;
 }
 
 @media (min-width:768px) {
@@ -332,6 +467,11 @@ background-size: cover
 
 
 /* Galeria */
+
+.fondo-galeria{
+    background-color: black;
+    background-image: url(../img/599987FONDOGALERIA.jpg);
+}
 
 .galeria-screen{
     display: flex;
