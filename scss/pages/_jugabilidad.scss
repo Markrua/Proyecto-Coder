@@ -62,7 +62,9 @@
 @media (min-width:480px) {
     .iframe-trailer{
         width: 465px;
-        @include flex-col-center;
+        display: flex;
+        justify-self: center;
+        align-self: center;
     }
 }
 
@@ -70,7 +72,9 @@
     .iframe-trailer{
         width: 600px;
         height: 400px;
-        @include flex-col-center;
+        display: flex;
+        justify-self: center;
+        align-self: center;
     }
 }
 

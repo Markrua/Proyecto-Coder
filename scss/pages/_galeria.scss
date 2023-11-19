@@ -45,12 +45,82 @@
 }
 
 @media (min-width:1200px) {
+
     .titulo-screenshots{
         font-size: 1.8rem;
+        padding: 1.5rem;
+        display: flex;
+        justify-self: center;
+        align-self: center;
     }
 
     .titulo-wallpapers{
         font-size: 1.8rem;
+        padding: 1.5rem;
+    }
+
+    .screenshots{
+        padding: 1rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(18, 1fr);
+        gap: 2rem;
+    }
+
+    .screen1{
+        grid-area: 1 / 1 / 7 / 2;
+    }
+
+    .screen2{
+        grid-area: 1 / 2 / 7 / 3;
+    }
+
+    .screen3{
+        grid-area: 7 / 1 / 13 / 2;
+    }
+
+    .screen4{
+        grid-area: 7 / 2 / 13 / 3;
+    }
+
+    .screen5{
+        grid-area: 13 / 1 / 19 / 2;
+    }
+
+    .screen6{
+        grid-area: 13 / 2 / 19 / 3;
+    }
+    
+    .wallpapers{
+        padding: 1rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(18, 1fr);
+        gap: 2rem;
+    }
+
+    .wall1{
+        grid-area: 1 / 1 / 7 / 2;
+    }
+
+    .wall2{
+        grid-area: 1 / 2 / 7 / 3;
+    }
+
+    .wall3{
+        grid-area: 7 / 1 / 13 / 2;
+    }
+
+    .wall4{
+        grid-area: 7 / 2 / 13 / 3;
+    }
+
+    .wall5{
+        grid-area: 13 / 1 / 19 / 2;
+    }
+
+    .wall6{
+        grid-area: 13 / 2 / 19 / 3;
     }
 }
 
