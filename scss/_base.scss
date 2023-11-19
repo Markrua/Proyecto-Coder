@@ -33,3 +33,9 @@ img{
     max-width: 100%;
 }
 
+@mixin flex-col-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

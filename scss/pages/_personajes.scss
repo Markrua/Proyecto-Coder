@@ -3,10 +3,7 @@
 }
 
 .personajes{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flex-col-center;
     gap: 1.6rem;
     padding: 1.3rem;
 }
@@ -21,10 +18,7 @@
     }
 
     .titulo-imagen{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        @include flex-col-center;
         gap: 1.5rem;
     }
 
@@ -40,9 +34,9 @@
     }
     
     .titulo-imagen{
+        padding: 1rem;
         display: flex;
         flex-direction: column;
-        padding: 1rem;
         align-items: center;
     }
     
